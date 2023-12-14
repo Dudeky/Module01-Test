@@ -1,0 +1,15 @@
+body {background: slategray;}
+p {
+    color: blanchedalmond;
+    
+}
+  h1 {
+    color: red;
+    text-shadow: 0 0 10px rgb(227, 243, 5);
+  }
+  li {
+    color: blanchedalmond;
+  }
+  a:link {
+    color: rgba(9, 203, 252, 0.87);
+  }
