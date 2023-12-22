@@ -1,4 +1,4 @@
-body {background: slategray;}
+body {font-family: 'Nunito Sans', sans-serif;background: slategray;}
 p {
     color: blanchedalmond;
     
@@ -6,6 +6,7 @@ p {
   h1 {
     color: red;
     text-shadow: 0 0 10px rgb(227, 243, 5);
+    font-weight: 900;
   }
   li {
     color: blanchedalmond;
