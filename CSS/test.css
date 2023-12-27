@@ -20,12 +20,10 @@ body {
 }
 ul {
     display: flex;
+    gap: 10%;
     list-style-type: none;
     padding-left: 0;
     margin: 0;
-}
-ul > li {
-    margin-right: 30px;
 }
 .box {
     display: flex;
@@ -37,6 +35,12 @@ ul > li {
     padding: 10px 20px;
     background-color: lavender;
 }
+.results {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
 .post {
     padding-bottom: 20px;
 }
@@ -63,7 +67,8 @@ section {
     background-color: rebeccapurple;
     color: white;
     padding: 8px 15px;
-    margin-left: 10px;
+    display: block;
+    text-align: center;
 }
 ul>li:last-child {
     margin-right: 0;
